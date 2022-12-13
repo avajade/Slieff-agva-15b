@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+<body>
+  <nav>
+      <a href="../home.html" class="btn2">Home</a>
+      <a href="../contactus" class="btn2">Contact Us</a>
+      <a href="#" class="btn2">Products and Services</a>
+    </nav>
+<main class="main">
+  <div class="location"><b>Location</b></div>
+  <div class="hours"><b>Open Hours</b></div>
+  <div class="address">4465 Broadway Ave.<br> Salem, OR 97301</div>
+  <div class="times"><b>Monday-Saturday</b>6:30am-5:30pm</div>
+  <div class="phone"><b>Phone Number:</b>971-443-5980</div>
+  <div class="email"><b>Email:</b>West.academy63@gmail.com</div>
+</main>
+<form action="https://us-central1-alhsofunctions.cloudfunctions.net/alhsoFormExample" method="post">
+  <ul>
+    <li>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="user_name" />
+    </li>
+    <li>
+      <label for="mail">E-mail:</label>
+      <input type="email" id="mail" name="user_email" />
+    </li>
+    <li>
+      <label for="msg">Message:</label>
+      <textarea id="msg" name="user_message"></textarea>
+    </li>
+<li class="button">
+  <button type="submit">Send your message</button>
+</li>
+  </ul>
+</form>
+  </body>
+</html>
