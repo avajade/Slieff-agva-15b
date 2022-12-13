@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Assignment 13a</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device=width, initial-scale=1" />
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="../index.html" class="btn2">Home</a>
+      <a href="../contactus.html" class="btn2">Contact Us</a>
+      <a href="#" class="btn2">Products and Services</a>
+    </nav>
+    <h1>Main Page</h1>
+    <div class="column-layout">
+      <div class="maincolumn">
+        <h2>West Cheer Academy</h2>
+        <p>
+           We were first established in 1963. We are well-known and the most prominent cheer academy in the U.S. dominating all of the competition. Our instructiors consist of former cheerleaders that excelled in their respective careers.
+        </p>
+      </div>
+      <div class="sidebar">
+        <img
+          src="https://cdn.glitch.global/769006fd-c350-4fb7-bf02-195de82eca5d/West%20Cheer%20Academy.png?v=1669591045266"
+          alt="Logo"
+          style="width: 100px height: 100px"
+        />
+        <ul>
+          <li>Open all year round</li>
+      <li>Top notch instructors</li>
+          <li>Compete across the Country</li>
+        </ul>
+      </div>
+    </div>
+    <div class="coloredcontainers" id="specialoffers">
+      <div class="color1">
+        <h3>Meet our Headmistress</h3>
+        <img
+          class="img2"
+          src="https://cdn.glitch.global/769006fd-c350-4fb7-bf02-195de82eca5d/IMG-4388%20copy-Original.jpg?v=1669591313233"
+          alt="Meet our Headmistress"
+          style="width: 100px height: 100px"
+        />
+        <p>
+          Our first headmistress in 1963 established a wonderful setting for our students. She allowed them to thrive and flourish and made them the best they could be. Each and every one of our headmistress' since her have not only met expectations but also exceeded them. Our headmistress, Ava Slieff, took office in 2021. 
+        </p>
+        <nav>
+          <a href="#" class="btn3">Learn More</a>
+        </nav>
+      </div>
+      <div class="color2">
+        <h3>Not only Cheer</h3>
+        <p>
+          We are not only an academy to train young children in the instruction and artform that is Cheer. We also provide a normal curriculum depending on your student's age and when they were enrolled. Our average GPA is a 3.83 thanks to our very well-respected teachers. We hold our students education to a very high regard and will never allow a child to fall behind. We also happily offer free-of-charge tutoring sessions. 
+        </p>
+        <nav>
+          <a href="#" class="btn3">Learn More</a>
+        </nav>
+      </div>
+    </div>
+    <div style="text-align:center;">
+      <button id="hidebutton" onclick="hideAds()">Hide Offers</button>
+    </div>
+  </body>
+  
+  <script>
+    function hideAds() {
+      var x = document.getElementById("specialoffers");
+      var y = document.getElementById("hidebutton");
+      x.style.display = "none";
+      y.style.display = "none";
+    }
+  </script>
+</html>
